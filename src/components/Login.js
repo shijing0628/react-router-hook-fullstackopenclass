@@ -16,10 +16,10 @@ function Login(props) {
    <h2>Login</h2>
    <form onSubmit={onSubmit}>
     <div>
-     username:<input />
+     username:<input type="text" required />
     </div>
     <div>
-     password:<input type='password' />
+     password:<input type='password' required />
     </div>
     <button type="submit">login</button>
    </form>
